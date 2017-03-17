@@ -1,12 +1,17 @@
- {
 
-	font-family: 'Montserrat', sans-serif;
-}
+body {
+
+	margin-right: 0px;
+	margin-left: 0px;
+
+} 
 
 header {
-	background: url("img/hero.jpg");
+
+	background: url("..//img/hero.jpg");
 	height: 1057px;
 	left: 10px;
+
 } 
 
 .logo {
@@ -15,6 +20,50 @@ header {
 	margin-left: 219px;
 
 }
+
+nav {
+
+  display: block;
+  margin-top: -100px;
+  margin-left: 667px;
+
+
+}
+
+.main-menu li {
+
+	display: inline;
+	margin-right: 35px; 
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: regular;
+	line-height: 85px;
+
+}
+
+.main-menu-tw li {
+
+	margin-right: 20px; /*не работает? что не так?.. */
+	   
+}
+
+nav a {
+
+  text-decoration: none; 
+  color: rgb(38,55,66);
+
+ }
+
+
+ a:hover {
+
+    color: rgb(240,69,76);
+    
+   }
+
+
+
+	
 
 
 
