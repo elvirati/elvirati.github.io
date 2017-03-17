@@ -48,9 +48,8 @@ nav {
 }
 
 nav a {
-
-  text-decoration: none; 
-  color: rgb(38,55,66);
+	text-decoration: none; 
+	color: rgb(38,55,66);
 
  }
 
@@ -61,7 +60,24 @@ nav a {
     
    }
 
+ .promo-title {
+ 	font-family: Montserrat;
+	font-size: 48px;
+	font-weight: bold;
+	line-height: 53px;
+	color: rgb(49,74,91); 
+	margin-top: 295px;
+	margin-left: 220px;
+	letter-spacing:-2px;
 
+ }
+
+.color-dot {
+
+	color: rgb(250,92,101);
+
+}
+ 
 
 	
 
