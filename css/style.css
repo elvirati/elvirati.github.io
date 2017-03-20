@@ -3,6 +3,7 @@ body {
 
 	margin-right: 0px;
 	margin-left: 0px;
+	
 
 } 
 
@@ -39,10 +40,8 @@ p {
 
 header {
 
-	background: url("..//img/hero.jpg");
+	background: url("..//img/hero.jpg") no-repeat 0px 0px;
 	height: 1057px;
-	left: 10px; /* с фоном-фотографией какая то ерунда
-когда уменьшаешь масштаб*/
 
 } 
 
@@ -136,15 +135,18 @@ nav a:hover {
 
 .features {
 
-	margin-left:220px; 
+	margin-left: 240px; 
 	margin-top: 88px;
+	margin-right: 200px;
+	margin-bottom: 88px;
 
 }
 
+
 .features-item {
 
-	float:left;	
-	margin-right:64px; 
+	float: left;	
+	width: 300px;
 
 }
 
@@ -174,18 +176,32 @@ nav a:hover {
 
 }
 
+.portfolio {
+
+	margin-left: 240px;
+	margin-right: 200px;
+	margin-top: 350px;
+	text-align: justify-all;
+
+
+
+}
 
 .portfolio-pic {
 
-	margin-left: 220px;	
+	float: left;
+	width:300px;
+
+	
 
 }
 
 .portfolio-text {
+	float: right;
+	width: 450px;
+	margin-top: 30px;
 
-	margin-left: 700px;
-	margin-top: -380px;
-
+        
 }
 
 .portfolio-title {
@@ -195,6 +211,7 @@ nav a:hover {
 	line-height: 46px;
 	letter-spacing:-0,04em;
 	margin-bottom: 0px;
+
 
 }
 
@@ -214,8 +231,12 @@ nav a:hover {
 
 }
 
-/* не могу найти вариант того, как выравнить
- компанду по горизонтали.  float:left не работает..*/
+
+.team {
+
+	clear: both;
+}
+
 
 
 
