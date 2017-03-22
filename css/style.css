@@ -1,7 +1,7 @@
 
  body {
 	margin: 0px;
-	font-family: "Montserrat", "Arial", sans-serif;	
+	font-family: "Montserrat", Arial, sans-serif;	
 }
 
 .container {
@@ -9,44 +9,43 @@
 	margin: 0, auto;
 }
 
- a {
-	text-decoration: none; 
-	
-
-.color-dot {
-	color: rgb(250,92,101);
-}
-
 
 .header {
 	background: url("..//img/hero.jpg") no-repeat;
-	
+	height: 1057px;
 } 
 
-/*
+.header-logo {
+	margin-left: 220px;
+	float: left;
+}
 
-p {
-	font-family: "Open Sans", "Arial", sans-serif;
-	color: rgb(154,160,171);
-} 
+.header-menu {
+	list-style: none;
+	margin: 0px;
+}
 
+.header-menu li {
+	float: left;
+	margin-right: 39px;
+}
 
-nav a {
-    color: rgb(38,55,66);
-    font-size: 14px;
+.header-menu li a {
+	text-decoration: none;
+	color: rgb(38,55,66);
+	font-size: 14px;
 	line-height: 85px;
 }
 
-nav a:hover {
+.header-menu a:hover {
     color: rgb(240,69,76);
 }
 
-.main-menu li {
-	display: inline;
-	margin-right: 35px; 
+.clear {
+	clear: both;
 }
 
-.promo-title {
+.header-title {
 	margin-top: 295px;
 	margin-left: 220px;
 	color: rgb(49,74,91); 
@@ -56,126 +55,112 @@ nav a:hover {
 	letter-spacing:-0,04em;
 }
 
-.promo p {
- 	font-family: "Open Sans", "Arial", sans-serif;
- 	color: rgb(49,74,91); 
-	font-size: 20px;
-	font-weight: regular;
-	line-height: 40,35px;
+.header-slogan {
 	margin-top: 27px; 
 	margin-left: 220px;
 	margin-bottom: 45px;
+	font-family: "Open Sans", "Arial", sans-serif;
+ 	color: rgb(49,74,91); 
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 40,35px;
 }
 
-.promo a {
-
-	margin-left: 220px;
-
-}
-
-
-.button a {
+.header-button a {
 	background-color: rgb(250,92,101);
-	padding: 15px 20px;
+	padding: 22px 43px;
 	color: white;
-	font-size: 18px;
+	font-size: 15px;
+	font-family: "Open Sans", "Arial", sans-serif;
+	line-height: 48px;
+	font-weight: 500;
 	border-radius: 8px; 
+	text-decoration: none;
+}
+
+.color-dot {
+	color: rgb(250,92,101);
+}
+
+.header-button {
+	margin-left: 218px;
+	margin-top: 45px;
+}
+
+
+
+.features-item {
+	float: left;
+	width: 320px;
 }
 
 .features {
 
-	margin-left: 240px; 
-	margin-top: 88px;
+	margin-left: 220px; 
+	margin-top: 70px;
 	margin-right: 200px;
 	margin-bottom: 88px;
-
-}
-
-
-.features-item {
-
-	float: left;	
-	width: 300px;
-
 }
 
 .features-title {
 	color: rgb(49,74,91); 
-    font-weight: bold;
+    font-weight: 600;
 	font-size: 26px;
 	line-height: 26px;
 
 }
-
-.features-item p {
-
+.features-text {
 	font-family: "Open Sans", "Arial", sans-serif;
+	color: rgb(154,160,171);
 	font-size: 15px;
 	font-weight: regular;
 	line-height: 22px; 
-
 }
 
 .more {
-
 	font-family: "Montserrat", "Arial", sans-serif;
 	font-size: 14px;
 	font-weight: regular;
 	line-height: 20px;
     color: rgb(250,92,101); 
+    text-decoration: none;
+}
 
+
+
+.portfolio-pic {
+	float: left;
 }
 
 .portfolio {
-
-	margin-left: 240px;
+	margin-left: 220px;
 	margin-right: 200px;
 	margin-top: 350px;
-	text-align: justify-all;
-
-
-
-}
-
-.portfolio-pic {
-
-	float: left;
-	width:300px;
-
-	
-
 }
 
 .portfolio-text {
-	float: right;
-	width: 450px;
-	margin-top: 30px;
-
-        
+	padding-top: 50px;
 }
 
 .portfolio-title {
-
 	font-size: 40px;
-	font-weight: bold;
+	font-weight: 600;
 	line-height: 46px;
 	letter-spacing:-0,04em;
 	margin-bottom: 0px;
-
-
+	color: rgb(49,74,91); 
 }
 
 .potfolio-slogan {
-
 	font-size: 16px;
 	line-height: 20px;
 	color: rgb(49,74,91);
 	margin-bottom: 20px; 
-
 }
 
 .portfolio-about {
-
+	font-family: "Open Sans", "Arial", sans-serif;
+	color: rgb(154,160,171);
     font-size: 15px;
 	line-height: 22px;
 
@@ -183,15 +168,38 @@ nav a:hover {
 
 
 .team {
-
-	clear: both;
+	margin-left: 220px;
 }
+
+.team-item {
+	float: left;
+	margin-right: 20px;
+}
+
+.team-title {
+	color: rgb(49,74,91); 
+	font-size: 32px;
+	margin-bottom: 0px;
+}
+
+.team-slogan {
+	font-family: "Open Sans", "Arial", sans-serif;
+	color: rgb(154,160,171);
+	font-size: 16px;
+	margin-top: 3px;
+}
+
 .team-title-name {
 	color: rgb(49,74,91); 
     font-weight: bold;
+    font-size: 22px;
+    text-transform:uppercase;
+    margin-bottom: 0px;
 }
 
 .team-title-profession {
+	margin-top: 5px;
+	margin-bottom: 0px;
 	font-family: "Open Sans", "Arial", sans-serif;
 	color: rgb(240,69,76);
 	font-size:14px;
@@ -199,9 +207,50 @@ nav a:hover {
 	line-height: 20px;
 }
 
-*/
+.team-title-text {
+	font-family: "Open Sans", "Arial", sans-serif;
+	color: rgb(154,160,171);
+    font-size: 15px;
+	line-height: 22px;
+}
 
+.team-more {
+	margin-left: 850px;
+	padding-top: 72px;
+}
 
+.footer {
+	margin: 0px;
+}
+
+.footer-line {
+	margin-top: 30px;
+	margin-left: 220px;
+	text-align: center;
+	width: 939px;
+    height: 1px; 
+    background: rgb(230,234,237);
+    border: 0; 
+}
+
+.footer-social {
+	list-style: none;
+	margin-left: 220px;
+	margin-bottom: 30px;
+}
+
+.footer-social li {
+	float: left;
+	margin-right: 20px;
+}
+
+.footer-copyright {
+	float: right;
+	font-family: "Open Sans", "Arial", sans-serif;
+	color: rgb(154,160,171);
+    font-size: 13px;
+	line-height: 60px;
+}
 
 
 
