@@ -16,6 +16,13 @@
 .color-dot {
 	color: rgb(250,92,101);
 }
+
+
+.header {
+	background: url("..//img/hero.jpg") no-repeat;
+	
+} 
+
 /*
 
 p {
@@ -23,15 +30,6 @@ p {
 	color: rgb(154,160,171);
 } 
 
-header {
-	background: url("..//img/hero.jpg") no-repeat;
-	
-} 
-
-.logo {
-	margin-top: -10px; 
-	margin-left: 219px;
-}
 
 nav a {
     color: rgb(38,55,66);
