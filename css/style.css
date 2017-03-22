@@ -1,122 +1,64 @@
 
-body {
+ body {
+	margin: 0px;
+	font-family: "Montserrat", "Arial", sans-serif;	
+}
 
-	margin-right: 0px;
-	margin-left: 0px;
+.container {
+	width: 960px;
+	margin: 0, auto;
+}
+
+ a {
+	text-decoration: none; 
 	
 
-} 
-
-a {
-
-	text-decoration: none; 
-
+.color-dot {
+	color: rgb(250,92,101);
 }
-
-h2, h3 {
-
-   font-family: "Montserrat", "Arial", sans-serif;
-   color: rgb(49,74,91); 
-   font-weight: bold;
-
-}
-
-h4 {
-
-	font-family: "Open Sans", "Arial", sans-serif;
-	color: rgb(240,69,76);
-	font-size:14px;
-	font-weight: regular;
-	line-height: 20px;
-
-}
+/*
 
 p {
-
 	font-family: "Open Sans", "Arial", sans-serif;
 	color: rgb(154,160,171);
-
-}
+} 
 
 header {
-
-	background: url("..//img/hero.jpg") no-repeat 0px 0px;
-	height: 1057px;
-
+	background: url("..//img/hero.jpg") no-repeat;
+	
 } 
 
 .logo {
-
 	margin-top: -10px; 
 	margin-left: 219px;
-
 }
-
-nav {
-
-    display: block;
-    margin-top: -100px;
-    margin-left: 667px;
-
-}
-
 
 nav a {
-
     color: rgb(38,55,66);
-
+    font-size: 14px;
+	line-height: 85px;
 }
 
 nav a:hover {
-
     color: rgb(240,69,76);
-    
 }
 
 .main-menu li {
-
 	display: inline;
 	margin-right: 35px; 
-	font-family: "Montserrat", "Arial", sans-serif;
-	font-size: 14px;
-	font-weight: regular;
-	line-height: 85px;
-
-}
-
-.main-menu-soc {
-
-	margin-left: 1100px; 
-	margin-top: -68px;
-}
-
-.main-menu-soc li {
-
-    margin-right: 20px;
-	display: inline;
-	
 }
 
 .promo-title {
-
+	margin-top: 295px;
+	margin-left: 220px;
+	color: rgb(49,74,91); 
 	font-size: 48px;
 	font-weight: 600;
 	line-height: 53px;
-	letter-spacing:-0,04em ;
-	margin-top: 295px;
-	margin-left: 220px;
-	font-family: "Montserrat", "Arial", sans-serif;
-	color: rgb(49,74,91); 
-}
-
-.color-dot {
-
-	color: rgb(250,92,101);
-
+	letter-spacing:-0,04em;
 }
 
 .promo p {
-
  	font-family: "Open Sans", "Arial", sans-serif;
  	color: rgb(49,74,91); 
 	font-size: 20px;
@@ -131,6 +73,15 @@ nav a:hover {
 
 	margin-left: 220px;
 
+}
+
+
+.button a {
+	background-color: rgb(250,92,101);
+	padding: 15px 20px;
+	color: white;
+	font-size: 18px;
+	border-radius: 8px; 
 }
 
 .features {
@@ -151,7 +102,8 @@ nav a:hover {
 }
 
 .features-title {
-
+	color: rgb(49,74,91); 
+    font-weight: bold;
 	font-size: 26px;
 	line-height: 26px;
 
@@ -236,7 +188,20 @@ nav a:hover {
 
 	clear: both;
 }
+.team-title-name {
+	color: rgb(49,74,91); 
+    font-weight: bold;
+}
 
+.team-title-profession {
+	font-family: "Open Sans", "Arial", sans-serif;
+	color: rgb(240,69,76);
+	font-size:14px;
+	font-weight: regular;
+	line-height: 20px;
+}
+
+*/
 
 
 
