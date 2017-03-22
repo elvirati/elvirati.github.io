@@ -23,7 +23,7 @@
 .header-menu {
 	list-style: none;
 	margin: 0px;
-}
+} /*тут проблема*/
 
 .header-menu li {
 	float: left;
@@ -250,7 +250,7 @@
 	color: rgb(154,160,171);
     font-size: 13px;
 	line-height: 60px;
-}
+} /*тут проблема*/
 
 
 
