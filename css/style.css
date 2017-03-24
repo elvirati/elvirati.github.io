@@ -15,9 +15,10 @@ http://simonenko.su/32197993404/use-css3-box-sizing */
 
 
 .container {
-	width: 960px;
+	width: 1300px;
 	margin: 0, auto;
-} /*отцентровка*/
+} /*отцентровка, не поняла
+ какие значения тут правильнее ставить*/
 
 
 .header {
@@ -32,8 +33,8 @@ http://simonenko.su/32197993404/use-css3-box-sizing */
 
 .header-menu {
 	list-style: none;
-	margin: 0px;
-} /*тут проблема*/
+	margin: 0px 0px 0px 700px;
+} /*не знаю, правильно ли так делать меню*/
 
 .header-menu li {
 	float: left;
@@ -256,9 +257,10 @@ http://simonenko.su/32197993404/use-css3-box-sizing */
 	color: rgb(154,160,171);
     font-size: 13px;
 	line-height: 60px;
-	margin-top: -20px;
-	margin-right: -180px;
-} /*тут проблема, с минусами только получилось*/
+	margin-top: -50px;
+	margin-right: 140px;
+} /*тут проблема, с минусом только получилось 
+поставить блок выше*/
 
 
 
