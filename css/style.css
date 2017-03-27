@@ -6,23 +6,23 @@
 
 .container {
 	width: 960px;
-	margin: 0, auto;
+	margin: 0 auto;
 }
-
 
 .header {
 	background: url("..//img/hero.jpg") no-repeat;
 	height: 1057px;
+	background-position: center;
 } 
 
 .header-logo {
-	margin-left: 220px;
 	float: left;
 }
 
 .header-menu {
 	list-style: none;
 	margin: 0px;
+	float: right;
 } /*тут проблема*/
 
 .header-menu li {
@@ -47,7 +47,6 @@
 
 .header-title {
 	margin-top: 295px;
-	margin-left: 220px;
 	color: rgb(49,74,91); 
 	font-size: 48px;
 	font-weight: 600;
@@ -57,7 +56,6 @@
 
 .header-slogan {
 	margin-top: 27px; 
-	margin-left: 220px;
 	margin-bottom: 45px;
 	font-family: "Open Sans", "Arial", sans-serif;
  	color: rgb(49,74,91); 
@@ -83,7 +81,6 @@
 }
 
 .header-button {
-	margin-left: 218px;
 	margin-top: 45px;
 }
 
@@ -220,28 +217,23 @@
 }
 
 .footer {
-	margin: 0px;
+	width: 960px;
+	margin: 0 auto;
 }
 
 .footer-line {
-	margin-top: 30px;
-	margin-left: 220px;
-	text-align: center;
-	width: 939px;
-    height: 1px; 
-    background: rgb(230,234,237);
-    border: 0; 
+	padding-top: 30px;
+	width: 939px;    
 }
 
 .footer-social {
 	list-style: none;
-	margin-left: 220px;
 	margin-bottom: 30px;
 }
 
 .footer-social li {
 	float: left;
-	margin-right: 20px;
+	margin-right: 20px;	
 }
 
 .footer-copyright {
