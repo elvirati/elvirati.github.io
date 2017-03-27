@@ -1,40 +1,31 @@
 
  body {
 	margin: 0px;
+	padding: 0px;
 	font-family: "Montserrat", Arial, sans-serif;
 }	
 
 
-/*html {
-   -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;
-}  
-Так и не поняла, нужно ли это здесь 
-http://simonenko.su/32197993404/use-css3-box-sizing */
-
-
 .container {
-	width: 1300px;
-	margin: 0, auto;
-} /*отцентровка, не поняла
- какие значения тут правильнее ставить*/
-
+	width: 960px;
+	margin: 0 auto;
+} 
 
 .header {
 	background: url("..//img/hero.jpg") no-repeat;
 	height: 1057px;
+	background-position: center;
 } 
 
 .header-logo {
-	margin-left: 220px;
 	float: left;
 }
 
 .header-menu {
 	list-style: none;
-	margin: 0px 0px 0px 700px;
-} /*не знаю, правильно ли так делать меню*/
+	margin: 0px;
+	float: right;
+} 
 
 .header-menu li {
 	float: left;
@@ -52,13 +43,14 @@ http://simonenko.su/32197993404/use-css3-box-sizing */
     color: rgb(240,69,76);
 }
 
-.clear {
-	clear: both;
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .header-title {
 	margin-top: 295px;
-	margin-left: 220px;
 	color: rgb(49,74,91); 
 	font-size: 48px;
 	font-weight: 600;
@@ -68,7 +60,6 @@ http://simonenko.su/32197993404/use-css3-box-sizing */
 
 .header-slogan {
 	margin-top: 27px; 
-	margin-left: 220px;
 	margin-bottom: 45px;
 	font-family: "Open Sans", "Arial", sans-serif;
  	color: rgb(49,74,91); 
@@ -94,7 +85,6 @@ http://simonenko.su/32197993404/use-css3-box-sizing */
 }
 
 .header-button {
-	margin-left: 218px;
 	margin-top: 45px;
 }
 
@@ -106,7 +96,6 @@ http://simonenko.su/32197993404/use-css3-box-sizing */
 }
 
 .features {
-
 	margin-left: 220px; 
 	margin-top: 70px;
 	margin-right: 200px;
@@ -138,19 +127,18 @@ http://simonenko.su/32197993404/use-css3-box-sizing */
 }
 
 
-
-.portfolio-pic {
-	float: left;
-}
-
 .portfolio {
 	margin-left: 220px;
 	margin-right: 200px;
 	margin-top: 350px;
 }
 
+.portfolio-pic {
+	float: left;
+}
+
 .portfolio-text {
-	padding-top: 50px;
+	padding-top: 35px;
 }
 
 .portfolio-title {
@@ -179,12 +167,13 @@ http://simonenko.su/32197993404/use-css3-box-sizing */
 
 
 .team {
-	margin-left: 220px;
+	margin-left: 50px;
 }
 
 .team-item {
 	float: left;
 	margin-right: 20px;
+	margin-top: 29px;
 }
 
 .team-title {
@@ -228,22 +217,21 @@ http://simonenko.su/32197993404/use-css3-box-sizing */
 .team-more {
 	margin-left: 850px;
 	padding-top: 72px;
+} 
+
+.footer {
+	width: 960px;
+	margin: 0 auto;
 }
 
 .footer-line {
-	margin-top: 30px;
-	margin-left: 220px;
-	text-align: center;
+	padding-top: 30px;
 	width: 939px;
-    height: 1px; 
-    background: rgb(230,234,237);
-    border: 0; 
 }
 
 .footer-social {
 	list-style: none;
-	padding: 0px;
-	margin: 10px 0px 30px 220px;
+	margin-bottom: 30px;
 }
 
 .footer-social li {
@@ -257,8 +245,8 @@ http://simonenko.su/32197993404/use-css3-box-sizing */
 	color: rgb(154,160,171);
     font-size: 13px;
 	line-height: 60px;
-	margin-top: -50px;
-	margin-right: 140px;
+	margin-top: -20px;
+	
 } /*тут проблема, с минусом только получилось 
 поставить блок выше*/
 
